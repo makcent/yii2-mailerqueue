@@ -1,0 +1,30 @@
+{
+    "name":"makcent/yii2-mailerqueue",
+    "type":"yii2-extension",
+    "description":"The Async mailer for the Yii framework",
+    "keyword":["yii2","redis","async", "mailer'"],
+    "license":"MIT",
+    "support":{
+        "issues":"https://github.com/makcent/yii2-mailerqueue/issues",
+        "forum":"https://github.com/makcent",
+        "source":"https://github.com/makcent/yii2-mailerqueue"
+    },
+    "authors":[
+        {
+            "name":"Fu Ming",
+            "email":"712042812@qq.com"
+        }
+    ],
+    
+    "require":{
+        "yiisoft/yii2":"*",
+        "yiisoft/yii2-redis":"~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0"
+    },
+   
+    "autoload":{
+        "psr-4":{
+            "makcent\\mailer\\queue\\":"src"
+        }
+    }
+}
